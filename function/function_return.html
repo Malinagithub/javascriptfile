@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function return</title>
+</head>
+<body>
+    <script>
+
+        //example=1
+        function fullName(fname,lname){
+            var a=fname+" "+lname;
+            return a;
+        }
+        var b=fullName("malina","mistry");
+        document.write(b+"<br>")
+
+        //example=2
+        function sum(maths,physics,chemistry){
+            var s=maths+physics+chemistry;
+            return s;
+        }
+        function percentage(t){
+            var per=t/300*100;
+            document.write("percantage:"+per+"<br>");
+        }
+        var total=sum(80,80,80);
+        document.write(total+"<br>")
+        percentage(total);
+    </script>
+</body>
+</html>

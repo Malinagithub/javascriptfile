@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthmetic Operator</title>
+</head>
+<body>
+    <p id="operator"></p>
+    <p id="operator1"></p>
+    <p id="operator2"></p>
+    <p id="operator3"></p>
+    <p id="operator4"></p>
+    <p id="operator5"></p>
+    <p id="operator6"></p>
+    <p id="operator7"></p>
+    <script>
+        var a=10;var b=20;
+        var c=a+b;
+        document.getElementById("operator").innerHTML=`Addition: ${c}`;
+
+        var d=70;var e=20;
+        var f=d-e;
+        document.getElementById("operator1").innerHTML=`Subtraction: ${f}`;
+
+        var x1=2;var x2=20;
+        var y=x1*x2;
+        document.getElementById("operator2").innerHTML=`Multification: ${y}`;
+
+        var g1=3,g2=2;
+        document.getElementById("operator3").innerHTML=`Exponentation: ${g1**g2}`
+
+        var h1=3,h2=2;
+        document.getElementById("operator4").innerHTML=`Division: ${h1/h2}`
+
+        var i1=4,i2=3;
+        document.getElementById("operator5").innerHTML=`Modules: ${i1%i2}`
+
+        var i=4;
+        document.getElementById("operator6").innerHTML=`increment: ${i+1}`
+        var j=8;
+        document.getElementById("operator7").innerHTML=`decrement: ${j-1}`
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>syntax</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        //example-1
+        function hello(){
+            document.write(`Hello Everyone`)
+        }hello();
+
+         //example-2
+         //self  invoking function
+         (function(){
+             document.getElementById("demo").innerHTML="hello i called myself";
+         })();
+
+         
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logical opertor</title>
+</head>
+<body>
+    <p id="logical"></p>
+    <script>
+        //condition opertor '?'
+        let accessallowed;
+        let age=prompt("enter your age");
+        if(age>=18){
+            accessallowed=true;
+        }else{
+            accessallowed=false;
+        }
+        document.getElementById("logical").innerHTML=accessallowed;
+
+        let ages=prompt("enter your age");
+        let message=(age<=13)?`hi baby`:
+        (age<=18)?`hello`:
+        (age<=50)?`greetings`:`what is your actual age`;
+        alert(message);
+    </script>
+</body>
+</html>

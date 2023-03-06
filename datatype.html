@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datatype</title>
+</head>
+<body>
+    <p id="datatype"></p>
+    <p id="datatype1"></p>
+    <p id="datatype2"></p>
+    <p id="datatype3"></p>
+    <p id="datatype4"></p>
+    <p id="datatype5"></p>
+    <p id="datatype6"></p>
+    <script>
+        var x=10;
+        document.getElementById('datatype').innerHTML=typeof x; //number
+
+        var y="hello";
+        document.getElementById("datatype1").innerHTML=typeof y; //string
+
+        var a=true;
+        document.getElementById('datatype2').innerHTML=typeof a;//boolean
+
+        var b=["html","js"];
+        document.getElementById("datatype3").innerHTML=typeof b;//object but it's array
+
+        var c={name:"malina",class:10};
+        document.getElementById("datatype4").innerHTML=typeof c;//object
+        
+        var f=null;
+        document.getElementById("datatype5").innerHTML=typeof f;//return noting
+
+        var e;
+        document.getElementById("datatype6").innerHTML=typeof e;//undefined
+    </script>
+</body>
+</html>

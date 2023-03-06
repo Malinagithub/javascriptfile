@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <button onclick="hello()">click </button><br>
+    <button oncontextmenu="hello2()">right click </button><br>
+    <button onmouseenter="hello3()">mouse out</button><br>
+    <button ondblclick="check()"> double click</button>
+    <button onmouseout="hello4()"> mouseout</button>
+    <button onmousedown="hello5()"> mousedown</button> 
+    <button onmouseup="hello6()"> mouseup</button>
+    <button onkeypress="hello7()">keypress </button>
+    <button onkeyup="hello8()"> keyup</button>
+    <script>
+
+        //click event=(onclick)
+        function hello(){
+            document.write("hello everyone"+"<br>")
+        }
+
+        //double click(ondbclick)
+        function check(){
+            document.write("i press doubleclick"+"<br>")
+        }
+
+        //right click(oncontextmenu)
+        function hello2(){
+          document.write("hello right click")
+        }
+        //mouse hover(onmouseenter)
+        function hello3(){
+          document.write("hello mouse hover")
+        }
+
+        //mouseout (onmouseout)
+        function hello4(){
+          document.write("hello mouse out")
+        }
+        //mousedown (onmousedown)
+        function hello5(){
+          document.write("hello mouse down")
+        }
+          //mouseup (onmouseup)
+          function hello6(){
+          document.write("hello mouse up")
+        }
+        //keypress(onkeypress)
+        function hello7(){
+            document.write("hello keypress")
+        }
+        //keyup(onkeyup)
+        function hello8(){
+            document.write("hello keyup")
+        }
+
+</script>
+</body>
+</html>

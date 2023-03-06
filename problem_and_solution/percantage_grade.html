@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>percantage</title>
+</head>
+<p id="per"></p>
+<body>
+    <script>
+        var per=prompt("enter your percantage");
+        if(per>=80 && per<=100){
+            document.getElementById('per').innerHTML=`Merit`;
+        }else if(per>=60 && per<=79){
+            document.getElementById('per').innerHTML=`1st Division`;
+        }else if(per>=45 && per<=59){
+            document.getElementById('per').innerHTML=`2nd Division`;
+        }else if(per>=33 && per<=44){
+            document.getElementById('per').innerHTML=`3rd Division`;
+        }else if(per<33){
+            document.getElementById('per').innerHTML=`you are fail`;
+        }
+        else{
+            document.getElementById('per').innerHTML=`enter your valid percantage`;
+        }
+    </script>
+</body>
+</html>

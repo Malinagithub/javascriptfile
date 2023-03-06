@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch statemnet</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        
+        //problem 1
+        var day=1;
+        switch(day){
+            case 0:
+            document.write("today is monday<br>") 
+            break;
+            case 1:
+               document.write("today is tuesday<br>") 
+               
+            break;
+            case 2:
+            document.write("today is wednesday<br>") 
+            break;
+            case 3:
+            document.write("today is thrusday<br>") 
+            break;
+            case 4:
+            document.write("today is friday<br>") 
+            break;
+            case 5:
+            document.write("today is saturday<br>") 
+            break;
+            default: 
+            document.write("enter valid day<br>") 
+         }
+         //problem=2
+         var age=15;
+         switch(true){
+             case(age>=15 && age<=20):
+                document.write("you are eligible");
+            break;
+
+             case(age>=21 &&age<=30):
+                document.write("you are nor eligible");
+            break;
+             default:
+                 document.write("enter valid age");
+                 break;
+         }
+    
+         //problem=3
+         var x=0;
+         switch(x){
+             case 3:
+                 text="no";
+            break;
+            case 1:
+                 text="yes";
+            break;
+            default:
+                text='no value found';
+         }
+         document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>

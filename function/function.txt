@@ -1,0 +1,6 @@
+Topic-function
+
+1. javascript function is block of code designed to perform a particular task
+2. a javascript function executed when something invoked ie caal it
+3. javascript function are used to perform operations we call javascript,
+    we can call javascript function many times to reuse the code.
