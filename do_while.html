@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do while loop</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+
+        //printing hy 5 time
+        var i=1;
+        do{
+            document.write("hy <br>");
+            i=i+1;
+        }while(i<=5);
+
+        //problem=2
+        var text="";
+        var a=0;
+        do{
+          text+=a+"<br>";
+          a++;
+
+        }while(a<5);
+        document.getElementById("demo").innerHTML=text;
+    </script>
+</body>
+</html>
